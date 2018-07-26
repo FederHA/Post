@@ -9,4 +9,4 @@ permalink: >
 published: true
 post_date: 2018-07-26 19:39:28
 ---
-Post goes here.
+Este es un post de prueba desde readme
