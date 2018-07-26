@@ -3,7 +3,7 @@ ID: 135
 post_title: Demo Page
 author: feder
 post_excerpt: ""
-layout: demopague
+layout: post
 permalink: >
   http://federhuaman.pe.hu/programacion/demo-page/
 published: true
