@@ -22,28 +22,31 @@ post_date: 2018-08-18 16:23:59
 </div>
 
 <div class="vce-row-container">
-  <div class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" id="el-2fbd4aa2" data-vce-do-apply="all el-2fbd4aa2">
-    <div class="vce-row-content" data-vce-element-content="true">
-      <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-a7be81ce" data-vce-do-apply="background border el-a7be81ce">
-        <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-a7be81ce">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="vce-row-container">
   <div class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" id="el-ab4efc60" data-vce-do-apply="all el-ab4efc60">
     <div class="vce-row-content" data-vce-element-content="true">
       <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-820b678f" data-vce-do-apply="background border el-820b678f">
         <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-820b678f">
-          <div class="vce-flickr-image vce-flickr-image--align-left">
-            <div id="el-6cc681db" class="vce vce-flickr-image-wrapper" data-vce-do-apply="all el-6cc681db">
-              <div class="vce-flickr-image-inner">
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/thomasheaton/21171377373/" title="Dartmoor Wildcamp by Thomas Heaton, on Flickr"><img src="https://farm6.staticflickr.com/5671/21171377373_ae0c1f3fcc_b.jpg" width="900" height="600" alt="Dartmoor Wildcamp" /></a><script async="" src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+          <section class="vce-hero-section-container vce-hero-section-media--xs vce-hero-section-media--sm vce-hero-section-media--md"><div class="vce vce-hero-section" id="el-ad1f93e1" data-vce-do-apply="margin background border  el-ad1f93e1">
+            <div class="vce-hero-section--wrap-row vce-hero-section--background-position-center-center" style="background-image: url('|!|vcvAssetsUploadUrl|!|elements/heroSection/heroSection/public/hero-section-background.jpg');">
+              <div class="vce-hero-section--wrap">
+                <div class="vce-hero-section--content" data-vce-do-apply="padding el-ad1f93e1">
+                  <div class="vce-hero-section--content-container">
+                    <h1>
+                      Mis certificados
+                    </h1>
+                    
+                    <p>
+                      The region became culturally distinguishable from the Lowlands from the later Middle Ages into the modern period.
+                    </p>
+                  </div>
+                  
+                  <div class="vce-button--style-basic-container vce-button--style-basic-container--align-center">
+                    <span class="vce-button--style-basic-wrapper vce" id="el-1e362222" data-vce-do-apply="margin el-1e362222"><button class="vce-button--style-basic vce-button--style-basic--border-square vce-button--style-basic--size-medium vce-button--style-basic--color-557cbf--fff" data-vce-do-apply="padding border background  el-1e362222">Apply Now</button></span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </div></section>
         </div>
       </div>
     </div>
