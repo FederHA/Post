@@ -103,16 +103,6 @@ post_date: 2018-08-18 16:23:59
               </div>
             </div>
           </div>
-          
-          <div class="vce vce-separator-container vce-separator--align-center vce-separator--style-solid" id="el-9d2737d2" data-vce-do-apply="margin el-9d2737d2">
-            <div class="vce-separator vce-separator--color-bfc0c1 vce-separator--width-60 vce-separator--thickness-1" data-vce-do-apply="border padding background  el-9d2737d2">
-            </div>
-          </div>
-          
-          <div class="vce vce-separator-container vce-separator--align-center vce-separator--style-solid" id="el-7eb9dc8e" data-vce-do-apply="margin el-7eb9dc8e">
-            <div class="vce-separator vce-separator--color-bfc0c1 vce-separator--width-60 vce-separator--thickness-1" data-vce-do-apply="border padding background  el-7eb9dc8e">
-            </div>
-          </div>
         </div>
       </div>
     </div>
