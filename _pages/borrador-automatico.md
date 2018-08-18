@@ -25,7 +25,7 @@ post_date: 2018-08-18 16:23:59
 <div class="vce-row-container">
   <div class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" id="el-0659c0ff" data-vce-do-apply="all el-0659c0ff">
     <div class="vce-row-content" data-vce-element-content="true">
-      <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-1511e167" data-vce-do-apply="background border el-1511e167">
+      <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first container" id="el-1511e167" data-vce-do-apply="background border el-1511e167">
         <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-1511e167">
           <div class="vce-single-image-container container vce-single-image--align-left">
             <div class="vce vce-single-image-wrapper" id="el-3e99d19e" data-vce-do-apply="all el-3e99d19e">
@@ -41,7 +41,7 @@ post_date: 2018-08-18 16:23:59
 </div>
 
 <div class="vce-row-container">
-  <div class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" id="el-64bdf391" data-vce-do-apply="all el-64bdf391">
+  <div class="vce-row vce-row--col-gap-30 container vce-row-columns--top vce-row-content--top" id="el-64bdf391" data-vce-do-apply="all el-64bdf391">
     <div class="vce-row-content" data-vce-element-content="true">
       <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first container" id="el-812ed79f" data-vce-do-apply="background border el-812ed79f">
         <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-812ed79f">
@@ -71,7 +71,7 @@ post_date: 2018-08-18 16:23:59
                 </div>
                 
                 <div class="vce-faq-toggle-text-block">
-                  [caption id="attachment_202" align="alignnone" width="587"]<img class="wp-image-202 size-full" src="|!|vcvUploadUrl|!|/2018/08/Certificado-desarrollo-Web-con-PHP.png" alt="Certificado desarrollo Web con PHP" width="587" height="442" /> Certificado desarrollo Web con PHP[/caption]
+                  [caption id="attachment_202" align="aligncenter" width="587"]<img class="wp-image-202 size-full" src="|!|vcvUploadUrl|!|/2018/08/Certificado-desarrollo-Web-con-PHP.png" alt="Certificado desarrollo Web con PHP" width="587" height="442" /> Certificado desarrollo Web con PHP[/caption]
                 </div>
               </div>
             </div>
