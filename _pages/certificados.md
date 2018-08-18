@@ -27,7 +27,7 @@ post_date: 2018-08-18 16:23:59
       <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-820b678f" data-vce-do-apply="background border el-820b678f">
         <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-820b678f">
           <section class="vce-hero-section-container vce-hero-section-media--xs vce-hero-section-media--sm vce-hero-section-media--md"><div class="vce vce-hero-section" id="el-ad1f93e1" data-vce-do-apply="margin background border  el-ad1f93e1">
-            <div class="vce-hero-section--wrap-row vce-hero-section--background-position-center-center" style="background-image: url('|!|vcvAssetsUploadUrl|!|elements/heroSection/heroSection/public/hero-section-background.jpg');">
+            <div class="vce-hero-section--wrap-row vce-hero-section--background-position-center-center" style="background-image: url('|!|vcvUploadUrl|!|/2018/08/Certificados-Feder-Huaman-Aquise.jpg');">
               <div class="vce-hero-section--wrap">
                 <div class="vce-hero-section--content" data-vce-do-apply="padding el-ad1f93e1">
                   <div class="vce-hero-section--content-container">
@@ -36,12 +36,12 @@ post_date: 2018-08-18 16:23:59
                     </h1>
                     
                     <p>
-                      The region became culturally distinguishable from the Lowlands from the later Middle Ages into the modern period.
+                      Certificados que obtuve durante mi carrera profesional
                     </p>
                   </div>
                   
                   <div class="vce-button--style-basic-container vce-button--style-basic-container--align-center">
-                    <span class="vce-button--style-basic-wrapper vce" id="el-1e362222" data-vce-do-apply="margin el-1e362222"><button class="vce-button--style-basic vce-button--style-basic--border-square vce-button--style-basic--size-medium vce-button--style-basic--color-557cbf--fff" data-vce-do-apply="padding border background  el-1e362222">Apply Now</button></span>
+                    <span class="vce-button--style-basic-wrapper vce" id="el-1e362222" data-vce-do-apply="margin el-1e362222"><button class="vce-button--style-basic vce-button--style-basic--border-round vce-button--style-basic--size-medium vce-button--style-basic--color-b-30-115-190--fff" data-vce-do-apply="padding border background  el-1e362222">VER</button></span>
                   </div>
                 </div>
               </div>
