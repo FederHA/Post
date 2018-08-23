@@ -93,12 +93,16 @@ post_date: 2018-08-22 12:43:00
           <div class="vce-text-block">
             <div class="vce-text-block-wrapper vce" id="el-162a024c" data-vce-do-apply="all el-162a024c">
               <p>
-                Kotlin y java corren sobre la misma maquina virtual de java JVM. En resumen, <strong>Kotlin puede llamar a Java y Java puede llamar a kotlin. </strong>
+                Kotlin y java corren sobre la misma maquina virtual de java JVM. En resumen, <strong>Kotlin puede llamar a Java y Java puede llamar a kotlin.</strong>
               </p>
               
               <h3>
                 Veamos como se ve Kotlin
               </h3>
+              
+              <p>
+                 
+              </p>
             </div>
           </div>
         </div>
