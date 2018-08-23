@@ -101,8 +101,19 @@ post_date: 2018-08-22 12:43:00
               </h3>
               
               <p>
-                 
+                Vamos a definir una clase <em>Persona, </em>crear una lista de personas, econtrar la persona como mayor edad de otros y imprimir el resultado. 
               </p>
+              
+              <pre class="line-numbers" data-start="1"><code class="language-kotlin">data class Persona(val nombre: String,
+                   val edad: Int? = null)
+
+fun main(args: Array&lt;String&gt;){
+    val personas = listOf(Persona("Feder"),
+                          Persona("Juan", edad = 20))
+
+    val edadMayor = personas.maxBy { it.edad ?: 0 }
+    println("La persona con edad Mayor es: $edadMayor")
+}&lt;br />&lt;br /></code></pre>
             </div>
           </div>
         </div>
