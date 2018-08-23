@@ -23,7 +23,7 @@ post_date: 2018-08-22 12:43:00
               </h2>
               
               <p>
-                Kotlin es un lenguaje de programacion que esta tomando relevancia en estos últimos meses,  es un proyecto Open Source (código fuete en <a href="https://github.com/JetBrains/kotlin" target="_blank" rel="noopener">GitHub</a>),  fue creado por JetBrains (Los mismos que crearon Android Studio) y se reveló en julio del 2011, oficializado en Google I/O 2017 como otro lenguaje de programación para el desarrollo de aplicaciones ANDROID.
+                Kotlin es un lenguaje de programación que esta tomando relevancia en estos últimos meses,  es un proyecto Open Source (código fuente en <a href="https://github.com/JetBrains/kotlin" target="_blank" rel="noopener">GitHub</a>),  fue creado por JetBrains (Los mismos que crearon Android Studio) y se reveló en julio del 2011, oficializado en Google I/O 2017 como otro lenguaje de programación para el desarrollo de aplicaciones Android.
               </p>
               
               <p>
@@ -120,11 +120,11 @@ fun main(args: Array){
           <div class="vce-text-block">
             <div class="vce-text-block-wrapper vce" id="el-e78a2ac2" data-vce-do-apply="all el-e78a2ac2">
               <p>
-                Hemos declarado una clase simple de tipo <em>data class</em> con dos propiedades: nombre y edad. La propiedad edad es null por defecto (si no se asigna ningún valor).
+                Hemos declarado una clase simple de tipo <em>data class</em> con dos propiedades: nombre y edad. La propiedad edad es <em>null</em> por defecto (si no se asigna ningún valor).
               </p>
               
               <p>
-                Cuando creamos la lista de personas podemos omitir la propiedad edad para la persona Feder, entonces el valor por defecto de edad es null. Luego usamos la funcion maxBy() para encontrar la persona con edad mayor.  La expresion de tipo Lambada que pasamos a la función toma un parámetro, y usa it como nombre por defecto .
+                Cuando creamos la lista de personas podemos omitir la propiedad edad para la persona Feder, entonces el valor por defecto de edad es <em>null</em>. Luego usamos la función maxBy() para encontrar la persona con edad mayor.  La expresión de tipo Lambada que pasamos a la función toma un parámetro, y usa <em>it</em> como nombre por defecto .
               </p>
               
               <p>
@@ -132,7 +132,7 @@ fun main(args: Array){
               </p>
               
               <p>
-                Puedes probar el código en el compilador online de Koltin en <a href="https://try.kotlinlang.org" target="_blank" rel="noopener">https://try.kotlinlang.org</a>
+                Puedes probar el código en el compilador online de Kotlin en <a href="https://try.kotlinlang.org" target="_blank" rel="noopener">https://try.kotlinlang.org</a>
               </p>
               
               <p>
