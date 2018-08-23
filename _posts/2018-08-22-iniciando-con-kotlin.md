@@ -23,7 +23,7 @@ post_date: 2018-08-22 12:43:00
               </h2>
               
               <p>
-                Kotlin es un proyecto Open Source (puedes ver el codigo fuete en <a href="https://github.com/JetBrains/kotlin">GitHub</a>), bajo la licencia Apache 2.0, fue creado por JetBrains (Los mismos que crearon Android Studio), se reveló en julio del 2011 y oficializado en Google I/O 2017 como otro lenguaje de programación para el desarrollo de aplicaciones ANDROID.
+                Kotlin es un proyecto Open Source (puedes ver el codigo fuete en <a href="https://github.com/JetBrains/kotlin">GitHub</a>), bajo la licencia Apache 2.0, fue creado por JetBrains (Los mismos que crearon Android Studio) y se reveló en julio del 2011, oficializado en Google I/O 2017 como otro lenguaje de programación para el desarrollo de aplicaciones ANDROID.
               </p>
               
               <p>
@@ -35,6 +35,10 @@ post_date: 2018-08-22 12:43:00
                   Un lenguaje con un diseño brillante y maduro que creemos que hará el desarrollo en Android más rápido y divertido
                 </p>
               </blockquote>
+              
+              <h3>
+                Presentacion de Kotlin en I/O 2017
+              </h3>
             </div>
           </div>
         </div>
@@ -59,7 +63,7 @@ post_date: 2018-08-22 12:43:00
           <div class="vce-text-block">
             <div class="vce-text-block-wrapper vce" id="el-fa9c56d8" data-vce-do-apply="all el-fa9c56d8">
               <p>
-                Kotlin es un lenguaje moderno, simple, facil de leer y de escribir. Kotlin toma lo mejor y quita lo que le "sobra" a Java para enfocarse en la productividad.
+                Kotlin es un lenguaje moderno, simple, fácil de leer y de escribir. Toma lo mejor y quita lo que le "sobra" a Java para enfocarse en la productividad de los desarrolladores.
               </p>
               
               <h3>
@@ -89,20 +93,12 @@ post_date: 2018-08-22 12:43:00
           <div class="vce-text-block">
             <div class="vce-text-block-wrapper vce" id="el-162a024c" data-vce-do-apply="all el-162a024c">
               <p>
-                Lo mejor de kotlin es que el compilador de de kotlin emite Java byte-code. En resumen, <strong>Kotlin puede llamar a Java y Java puede llamar a kotlin. </strong>
+                Kotlin y java corren sobre la misma maquina virtual de java JVM. En resumen, <strong>Kotlin puede llamar a Java y Java puede llamar a kotlin. </strong>
               </p>
               
               <h3>
                 Veamos como se ve Kotlin
               </h3>
-              
-              <p>
-                 
-              </p>
-              
-              <p>
-                 
-              </p>
             </div>
           </div>
         </div>
