@@ -107,7 +107,7 @@ post_date: 2018-08-22 12:43:00
               <pre class="line-numbers" data-start="1"><code class="language-kotlin">data class Persona(val nombre: String,
                    val edad: Int? = null)
 
-fun main(args: Array){
+fun main(args: Array&lt;String&gt;){
     val personas = listOf(Persona("Feder"),
                           Persona("Juan", edad = 20))
 
