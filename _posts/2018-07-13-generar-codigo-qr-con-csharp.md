@@ -78,7 +78,7 @@ post_date: 2018-07-13 20:18:22
                 7. Generando Código QR En el evento click del botón [ Generar QR ], vamos a escribir el siguiente código.
               </h4>
               
-              <pre class="line-numbers" data-start="1"><code class="language-markup">private void btnGenerarQR_Click(object sender, EventArgs e)
+              <pre class="line-numbers" data-start="1"><code class="language-csharp">private void btnGenerarQR_Click(object sender, EventArgs e)
         {
             try
             {
