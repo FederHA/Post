@@ -47,15 +47,19 @@ post_date: 2018-07-13 20:18:22
               </h4>
               
               <p>
-                Vamos crear un proyecto tipo aplicación Windows Forms en visual studio (yo tengo instalado el 2017 ). En mi caso al proyecto le pondré el nombre de <code>QRGenerator</code>[caption id="attachment_88" align="aligncenter" width="700"]<img class="wp-image-88" src="|!|vcvUploadUrl|!|/2018/07/Crear-Proyecto-para-generar-QR.png" alt="Crear Proyecto para generar QR" width="700" height="481" /> Crear Proyecto para generar QR[/caption]
-              </p>
+                Vamos crear un proyecto tipo aplicación Windows Forms en visual studio (yo tengo instalado el 2017 ). En mi caso al proyecto le pondré el nombre de <code>QRGenerator</code>
+              </p>[caption id="attachment_88" align="aligncenter" width="700"]
               
-              <h4>
+              <img class="wp-image-88" src="|!|vcvUploadUrl|!|/2018/07/Crear-Proyecto-para-generar-QR.png" alt="Crear Proyecto para generar QR" width="700" height="481" /> Crear Proyecto para generar QR[/caption]<h4>
                 2. Agregar la librería Después de haber creado nuestro proyecto vamos a agregar la librería
               </h4>
               
               <p>
-                <a href="https://archive.codeplex.com/?p=qrcodenet" target="_blank" rel="noopener">Gma.QrCodeNet</a> ( Puedes agregar a un proyecto  que ya tienes desarrollado), para eso, damos click derecho en el nombre de nuestro proyecto creado->Administrar Paquetes NugGet, nos habrirá una ventana, nos dirigimos a la pestaña Examinar y buscamos la librería, como figura en la imagen.[caption id="attachment_101" align="aligncenter" width="700"]<img class="wp-image-101" src="|!|vcvUploadUrl|!|/2018/07/Instalando-la-libreria-QrCodeNet-300x184.png" alt="Instalando la libreria QrCodeNet" width="700" height="428" /> Instalando la librería QrCodeNet[/caption]Le damos click en instalar y la librería se agregará como referencia en nuestro proyecto.
+                <a href="https://archive.codeplex.com/?p=qrcodenet" target="_blank" rel="noopener">Gma.QrCodeNet</a> ( Puedes agregar a un proyecto  que ya tienes desarrollado), para eso, damos click derecho en el nombre de nuestro proyecto creado->Administrar Paquetes NugGet, nos habrirá una ventana, nos dirigimos a la pestaña Examinar y buscamos la librería, como figura en la imagen.
+              </p>[caption id="attachment_101" align="aligncenter" width="700"]
+              
+              <img class="wp-image-101" src="|!|vcvUploadUrl|!|/2018/07/Instalando-la-libreria-QrCodeNet-300x184.png" alt="Instalando la libreria QrCodeNet" width="700" height="428" /> Instalando la librería QrCodeNet[/caption]<p>
+                Le damos click en instalar y la librería se agregará como referencia en nuestro proyecto.
               </p>
               
               <h4>
@@ -63,22 +67,18 @@ post_date: 2018-07-13 20:18:22
               </h4>
               
               <p>
-                Para mi caso utilizaré el formulario windows forms que se creó al momento de crear el proyecto. Vamos a diseñar el formulario con los controles necesarios, como se ve en la imagen.[caption id="attachment_106" align="aligncenter" width="414"]
-              </p>
+                Para mi caso utilizaré el formulario windows forms que se creó al momento de crear el proyecto. Vamos a diseñar el formulario con los controles necesarios, como se ve en la imagen.
+              </p>[caption id="attachment_106" align="aligncenter" width="414"]
               
-              <p>
-                <br />
-              </p>
-              
-              <p>
-                <img class="size-full wp-image-106" src="|!|vcvUploadUrl|!|/2018/07/Agregando-controles-para-generar-el-codigo-QR-1.png" alt="Agregando controles para generar el codigo QR" width="414" height="369" /> Agregando controles para generar el código QR[/caption]Ya tenemos diseñado nuestro formulario listo para escribir código.  Let's go !!!
+              <img class="size-full wp-image-106" src="|!|vcvUploadUrl|!|/2018/07/Agregando-controles-para-generar-el-codigo-QR-1.png" alt="Agregando controles para generar el codigo QR" width="414" height="369" /> Agregando controles para generar el código QR[/caption]<p>
+                Ya tenemos diseñado nuestro formulario listo para escribir código.  Let's go !!!
               </p>
               
               <h4>
                 7. Generando Código QR En el evento click del botón [ Generar QR ], vamos a escribir el siguiente código.
               </h4>
               
-              <pre class="prettyprint">private void btnGenerarQR_Click(object sender, EventArgs e)
+              <pre class="line-numbers" data-start="1"><code class="language-markup">private void btnGenerarQR_Click(object sender, EventArgs e)
         {
             try
             {
@@ -101,8 +101,7 @@ post_date: 2018-07-13 20:18:22
             {
                MessageBox.Show("Error en btnGenerarQR_Click(): " + ex.Message);
             }
-        }
-</pre>
+        }</code></pre>
               
               <p>
                 Esto es todo amigos, ya podemos generar nuestro código QR, puedes implementar en cualquier proyecto que estés desarrollando. El código completo del proyecto lo dejaré en
