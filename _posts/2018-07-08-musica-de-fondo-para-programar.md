@@ -1,7 +1,7 @@
 ---
 ID: 1
 post_title: Música de fondo para programar
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: post
 permalink: >

@@ -1,11 +1,11 @@
 ---
 ID: 255
 post_title: Comienza con lo que sabes
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: post
 permalink: >
-  http://federhuaman.pe.hu/motivacione-personal/comienza-con-lo-que-sabes/
+  http://federhuaman.pe.hu/motivacion-personal/comienza-con-lo-que-sabes/
 published: true
 post_date: 2018-08-25 03:10:02
 ---

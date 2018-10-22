@@ -3,7 +3,7 @@ ID: 135
 post_title: >
   ¿Qué es un control de versiones, y por
   qué debería ser importarte?
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: post
 permalink: >

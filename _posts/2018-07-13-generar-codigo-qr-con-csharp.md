@@ -1,7 +1,7 @@
 ---
 ID: 74
 post_title: 'Generar codigo QR con c#'
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: post
 permalink: >

@@ -1,7 +1,7 @@
 ---
 ID: 231
 post_title: Iniciando con Kotlin
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: post
 permalink: >

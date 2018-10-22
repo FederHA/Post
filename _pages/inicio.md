@@ -1,7 +1,7 @@
 ---
 ID: 5
 post_title: Inicio
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: page
 permalink: http://federhuaman.pe.hu/

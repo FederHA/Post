@@ -1,7 +1,7 @@
 ---
 ID: 2
 post_title: Blog
-author: feder
+author: Feder Huaman
 post_excerpt: ""
 layout: page
 permalink: http://federhuaman.pe.hu/blog/
