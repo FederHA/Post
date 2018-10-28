@@ -74,7 +74,7 @@ post_date: 2018-10-28 16:48:49
               </ul>
               
               <p>
-                Pero al final del día, está acostado en su cama (solo o junto a su cónyuge), y piensa: "¿Qué sigue en esta búsqueda infinita de la felicidad?"
+                Pero al final del día, está acostado en su cama (sólo o junto a su cónyuge), y piensa: "¿Qué sigue en esta búsqueda infinita de la felicidad?"
               </p>
               
               <p>
@@ -86,7 +86,7 @@ post_date: 2018-10-28 16:48:49
               </p>
               
               <p>
-                ¿Nos mintió Aristóteles cuando dijo:
+                Nos mintió Aristóteles cuando dijo:
               </p>
               
               <blockquote>
