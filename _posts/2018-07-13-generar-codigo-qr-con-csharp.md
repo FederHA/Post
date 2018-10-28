@@ -51,11 +51,11 @@ post_date: 2018-07-13 20:18:22
               </p>[caption id="attachment_88" align="aligncenter" width="700"]
               
               <img class="wp-image-88" src="|!|vcvUploadUrl|!|/2018/07/Crear-Proyecto-para-generar-QR.png" alt="Crear Proyecto para generar QR" width="700" height="481" /> Crear Proyecto para generar QR[/caption]<h4>
-                2. Agregar la librería Después de haber creado nuestro proyecto vamos a agregar la librería
+                2. Agregar la librería
               </h4>
               
               <p>
-                <a href="https://archive.codeplex.com/?p=qrcodenet" target="_blank" rel="noopener">Gma.QrCodeNet</a> ( Puedes agregar a un proyecto  que ya tienes desarrollado), para eso, damos click derecho en el nombre de nuestro proyecto creado->Administrar Paquetes NugGet, nos habrirá una ventana, nos dirigimos a la pestaña Examinar y buscamos la librería, como figura en la imagen.
+                Después de haber creado nuestro proyecto vamos a agregar la librería <a href="https://archive.codeplex.com/?p=qrcodenet" target="_blank" rel="noopener">Gma.QrCodeNet</a> ( Puedes agregar a un proyecto  que ya tienes desarrollado), para eso, damos click derecho en el nombre de nuestro proyecto creado->Administrar Paquetes NugGet, nos habrirá una ventana, nos dirigimos a la pestaña Examinar y buscamos la librería, como figura en la imagen.
               </p>[caption id="attachment_101" align="aligncenter" width="700"]
               
               <img class="wp-image-101" src="|!|vcvUploadUrl|!|/2018/07/Instalando-la-libreria-QrCodeNet-300x184.png" alt="Instalando la libreria QrCodeNet" width="700" height="428" /> Instalando la librería QrCodeNet[/caption]<p>
@@ -75,8 +75,12 @@ post_date: 2018-07-13 20:18:22
               </p>
               
               <h4>
-                7. Generando Código QR En el evento click del botón [ Generar QR ], vamos a escribir el siguiente código.
+                7. Generando Código QR
               </h4>
+              
+              <p>
+                En el evento click del botón [ Generar QR ], vamos a escribir el siguiente código.
+              </p>
               
               <pre class="line-numbers" data-start="1"><code class="language-csharp">private void btnGenerarQR_Click(object sender, EventArgs e)
         {
@@ -104,11 +108,11 @@ post_date: 2018-07-13 20:18:22
         }</code></pre>
               
               <p>
-                Esto es todo amigos, ya podemos generar nuestro código QR, puedes implementar en cualquier proyecto que estés desarrollando. El código completo del proyecto lo dejaré en
+                Esto es todo amigos, ya podemos generar nuestro código QR, puedes implementar en cualquier proyecto que estés desarrollando. El código completo del proyecto lo dejaré en <a href="https://github.com/FederHA/QRGenerator" target="_blank" rel="noopener">GitHub</a>.
               </p>
               
               <p>
-                <a href="https://github.com/FederHA/QRGenerator" target="_blank" rel="noopener">GitHub</a> Gracias por leer el artículo. Comparte con tus amigos. Hasta la próxima !!!!  
+                Gracias por leer el artículo. Comparte con tus amigos. Hasta la próxima !!!!  
               </p>
             </div>
           </div>
