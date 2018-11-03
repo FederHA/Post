@@ -14,78 +14,30 @@ post_date: 2018-11-03 05:27:48
 <!--vcv no format-->
 
 <div class="vce-row-container">
-  <div class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" id="el-7433d429" data-vce-do-apply="all el-7433d429">
+  <div id="el-7433d429" class="vce-row vce-row--col-gap-30 vce-row-columns--top vce-row-content--top" data-vce-do-apply="all el-7433d429">
     <div class="vce-row-content" data-vce-element-content="true">
-      <div class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" id="el-9fb50701" data-vce-do-apply="background border el-9fb50701">
-        <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin  el-9fb50701">
+      <div id="el-9fb50701" class="vce-col vce-col--md-100p vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first" data-vce-do-apply="background border el-9fb50701">
+        <div class="vce-col-inner" data-vce-element-content="true" data-vce-do-apply="padding margin el-9fb50701">
           <div class="vce-text-block">
-            <div class="vce-text-block-wrapper vce" id="el-43f9a7a1" data-vce-do-apply="all el-43f9a7a1">
+            <div id="el-43f9a7a1" class="vce-text-block-wrapper vce" data-vce-do-apply="all el-43f9a7a1">
               <h2>
                 Consultar RUC directamente a SUNAT sin código captcha
-              </h2>
+              </h2> Hace poco estuve trabajando en un proyecto, en uno de los modulos tenía que contar con una opción para consultar el RUC,  lo cual consistía en ingresar el numero de RUC de la empresa y el sistema debe consultar directamente a SUNAT sin ingresar el código captcha. Después de tanta investigación en internet logro completar el requerimiento. Recuerda, la perseverancia y la capacidad de investigación nos hace grandes desarrolladores. Antes, se podía consulta el RUC en el portal de SUNAT sin ingresar el código captcha, pero, ahora se complica un poco con el famoso captcha. Antes la consulta era a la siguiente url: 
               
-              <p>
-                Hace poco estuve trabajando en un proyecto, en uno de los modulos tenía que contar con una opción para consultar el RUC,  lo cual consistía en ingresar el numero de RUC de la empresa y el sistema debe consultar directamente a SUNAT sin ingresar el código captcha. 
-              </p>
+              <pre class="line-numbers"><code class="language-c">http://www.sunat.gob.pe/w/wapS01Alias?ruc={nímero de RUC}</code></pre> Ahora: 
               
-              <p>
-                Después de tanta investigación en internet logro completar el requerimiento. Recuerda, la perseverancia y la capacidad de investigación nos hace grandes desarrolladores. 
-              </p>
+              <pre class="line-numbers"><code class="language-c">http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias</code></pre> Entonces, tuve que buscar un OCR(Reconocimiento óptico de caracteres) que me permita convertir la imagen captcha a un texto para mandar en la url de la consulta. La OCR se llama 
               
-              <p>
-                Antes, se podía consulta el RUC en el portal de SUNAT sin ingresar el código captcha, pero, ahora se complica un poco con el famoso captcha. Antes la consulta era a la siguiente url: 
-              </p>
-              
-              <pre class="line-numbers"><code class="language-c">http://www.sunat.gob.pe/w/wapS01Alias?ruc={nímero de RUC}</code></pre>
-              
-              <p>
-                Ahora:
-              </p>
-              
-              <pre class="line-numbers"><code class="language-c">http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias</code></pre>
-              
-              <p>
-                Entonces, tuve que buscar un OCR(Reconocimiento óptico de caracteres) que me permita convertir la imagen captcha a un texto para mandar en la url de la consulta.
-              </p>
-              
-              <p>
-                La OCR se llama <strong>Tesseract, </strong>lo mejor es que es de Open Source, lo que significa que es gratuito y de código libre. <a href="https://github.com/tesseract-ocr/tesseract">Código Fuente</a>
-              </p>
-              
-              <p>
-                Vamos a crear nuestro proyecto en Visual Studio y luego diseñamos el siguiente formulario. Para este ejemplo no voy a mostrar todos los datos de la empresa, solamente los datos necesarios. 
-              </p>[caption id="attachment_311" align="alignnone" width="528"]
-              
-              <img class="size-full wp-image-311" src="|!|vcvUploadUrl|!|/2018/11/Consulta-ruc-a-SUNAT.png" alt="Formulario de consulta ruc a SUNAT" width="528" height="213" /> Formulario de consulta RUC a SUNAT[/caption]<p>
-                Luego vamos a agregar las librerías necesarias desde el administrador de paquetes NuGet de nuestro proyecto. 
-              </p>
-              
-              <p>
-                Para ello, <em>click derecho en nuestra solución -> Administrador de paquetes NuGet para la solución</em> y luego buscamos los siguientes paquetes:
-              </p>
-              
-              <ol>
+              <strong>Tesseract, </strong>lo mejor es que es de Open Source, lo que significa que es gratuito y de código libre. <a href="https://github.com/tesseract-ocr/tesseract">Código Fuente</a> Vamos a crear nuestro proyecto en Visual Studio y luego diseñamos el siguiente formulario. Para este ejemplo no voy a mostrar todos los datos de la empresa, solamente los datos necesarios. [caption id="attachment_311" align="alignnone" width="528"]<img class="size-full wp-image-311" src="http://federhuaman.pe.hu/wp-content/uploads/2018/11/Consulta-ruc-a-SUNAT.png" alt="Formulario de consulta ruc a SUNAT" width="528" height="213" /> Formulario de consulta RUC a SUNAT[/caption] Luego vamos a agregar las librerías necesarias desde el administrador de paquetes NuGet de nuestro proyecto. Para ello, <em>click derecho en nuestra solución -> Administrador de paquetes NuGet para la solución</em> y luego buscamos los siguientes paquetes: <ol>
                 <li>
-                  Agregar <strong>Tessnet2: </strong>Este es una extención de Tesseract para C#. 
+                  Agregar <strong>Tessnet2: </strong>Este es una extención de Tesseract para C#.
                 </li>
                 <li>
                   Agregar <strong>HtmlAgilityPack: </strong>Este es una librería que nos permite manipular Etiquetas HTML de manera muy simple.
                 </li>
-              </ol>
+              </ol> Ya tenemos todo listo para escribir código. En el botón de consulta a SUNAT. Pegamos el siguiente código. 
               
-              <p>
-                Ya tenemos todo listo para escribir código. 
-              </p>
-              
-              <p>
-                En el botón de consulta a SUNAT.
-              </p>
-              
-              <p>
-                Pegamos el siguiente código.
-              </p>
-              
-              <pre class="line-numbers"><code class="language-csharp">&nbsp;          try
+              <pre class="line-numbers"><code class="language-csharp">           try
             {
                 ConsultaRucSunat consultaRucSunat = new ConsultaRucSunat();
                 btnConsultaSunat.Text = "Consultando...";
@@ -97,17 +49,9 @@ post_date: 2018-11-03 05:27:48
             catch (Exception ex)
             {
                 throw new Exception("Error en btnConsultaSunat_Click : " + ex.Message);
-            }</code></pre>
+            }</code></pre> En el proyecto creamos una clase que se llama 
               
-              <p>
-                En el proyecto creamos una clase que se llama <em>ConsultaRucSunat</em>
-              </p>
-              
-              <p>
-                y pegamos el siguiente código
-              </p>
-              
-              <pre class="line-numbers"><code class="language-csharp">    public class ConsultaRucSunat
+              <em>ConsultaRucSunat</em> y pegamos el siguiente código <pre class="line-numbers"><code class="language-csharp">    public class ConsultaRucSunat
     {
         string captcha = "";
         Encoding objEncoding = Encoding.GetEncoding("UTF-8");
@@ -212,25 +156,7 @@ post_date: 2018-11-03 05:27:48
         }
     }</code></pre>
               
-              <p>
-                <code class="language-csharp"></code>
-              </p>
-              
-              <p>
-                Listo, ya podemos consultar el RUC directamente a SUNAT.
-              </p>[caption id="attachment_314" align="alignnone" width="584"]
-              
-              <img class="size-full wp-image-314" src="|!|vcvUploadUrl|!|/2018/11/Consulta-ruc-a-SUNAT-con-CSHAP.png" alt="Consulta ruc a SUNAT - con CSHAP" width="584" height="204" /> Consulta RUC a SUNAT - Resultado[/caption]<p>
-                Si tienes un proyecto existente simplemente puedes copiar la clase a tu proyecto y llamar el método <em>ConsultaRuc(ruc).</em>
-              </p>
-              
-              <p>
-                Código fuente en mi <a href="https://github.com/FederHuaman/AppConsultaRucSunat">repositorio GitHub</a>
-              </p>
-              
-              <p>
-                Gracias por leer el post. Comparte !!!
-              </p>
+              <code class="language-csharp"></code> Listo, ya podemos consultar el RUC directamente a SUNAT. [caption id="attachment_314" align="alignnone" width="584"]<img class="size-full wp-image-314" src="http://federhuaman.pe.hu/wp-content/uploads/2018/11/Consulta-ruc-a-SUNAT-con-CSHAP.png" alt="Consulta ruc a SUNAT - con CSHAP" width="584" height="204" /> Consulta RUC a SUNAT - Resultado[/caption] Si tienes un proyecto existente simplemente puedes copiar la clase a tu proyecto y llamar el método <em>ConsultaRuc(ruc).</em> Código fuente en mi <a href="https://github.com/FederHuaman/AppConsultaRucSunat">repositorio GitHub</a> Gracias por leer el post. Comparte !!!
             </div>
           </div>
         </div>
